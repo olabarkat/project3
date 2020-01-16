@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+   
+            <nav class="navigation">
+        
+             
+            <button class="menu" onclick="openNav()" id="menuBtn" type="button">Menu</button>
+            <ul id="list">
+               <li> <button class="menu" onclick="closeNav()"  type="button">X</button></li>
+                
+                <li>
+                    <a>HOME</a>
+                </li>
+                <li>
+                    <a id="templates">TEMPLATES</a>
+                    <ul id="dropDownMenu">
+                        <li>
+                            <a>HTML5/CSS3/JS</a>
+                        </li>
+                        <li>
+                            <a>CMS ADMIN PANEL</a>
+                        </li>
+                        <li>
+                            <a>ECOmmerce</a>
+                        </li>
+                    </ul>
+
+                </li>
+                <li>
+                    <a>ABOUT</a>
+                </li>
+                <li>
+                    <a>SUPPORT</a>
+                </li>
+                <li>
+                    <a  id= "contacts" href="login.html">CONTACTS</a>
+                    
+                </li>
+                <li>
+                    <a>CART</a>
+                </li>
+
+            </ul></nav>
+            <div id="overlay" class="overlay" onclick="closeNav()"></div>
+            
+    <script src="script.js"></script>
+    
+</body>
+</html>
